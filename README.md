@@ -30,6 +30,10 @@ network:
         ens6:
             addresses:
             - 172.31.16.77/20
+            dhcp4: false
+            dhcp6: false
+            match:
+                macaddress: 02:c3:3f:32:cf:e1
             set-name: eth1
     version: 2
 ```
